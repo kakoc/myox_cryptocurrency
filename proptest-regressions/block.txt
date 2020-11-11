@@ -1,0 +1,13 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 68fa9b0e9fad2c3bd4ed43d57bef4ef4e0ecf919586885ce23ed4ca507eddf6f # shrinks to data = "a"
+cc 62c0b7f020bb8b0b2b6bf3501deee37a6c28a6089d33aaf5acdd7efaa37a64ce # shrinks to data = "\r0"
+cc e5fb07df01f35b2eecbf729230194e0f97a9a48aea25132722a9dcf546a1ad3b # shrinks to data = "L/×\u{90aeb}Ѩ"
+cc 532d08b79ff3250027eb9b1197aa06cd652ab9c579e9ec15f9689d20fff0f516 # shrinks to data = "Ѩ\'\u{6}_Ì\u{8}\u{1b}$\u{700fc}\u{0}\u{933b0}\u{4}\u{b06b4}H🕴$\tȇ\u{0}H,bȺ%<B𝁗"
+cc b9446891eb908f92c7217e944b1586a0e91077b0bf0e99616c0d2efda49c77da # shrinks to data = "\u{9c3e5}\u{202d}‧E="
+cc 1abde35f274455b617cd17a04f974d39c87b88cef047ef147d0f6ea9fa796281 # shrinks to data = "O`Ø\u{1}\r#/￼\u{401c5}\r\u{4}Ѩ-\u{1}Ⱥ$"
+cc 58bbb4a8c43053c8598b45ff14c90cceaf5e2b62f9fd8a2284c6632f3dbea622 # shrinks to data = "\u{1b}\u{89}%\u{b2195}"
